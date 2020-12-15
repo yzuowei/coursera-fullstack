@@ -1,0 +1,62 @@
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color:#424242;
+}
+
+.row {
+    width: 100%;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+header h1 {
+    margin: 0px;
+    color: #424242;
+    position: relative;
+    bottom: 10px;
+}
+
+header h1:hover {
+    color: grey;
+}
+
+#header-nav {
+    background-color: lightgrey;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid grey;
+}
+
+#nav-list a {
+    color: #424242;
+}
+
+#nav-list a:hover {
+    color: grey;
+    background-color: whitesmoke;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+.box {
+    background-color: lightgrey;
+    height: 700px;
+    margin-left: 30px;
+}
+
+section div p {
+    padding: 10px;
+}
+
+section div p:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+}
